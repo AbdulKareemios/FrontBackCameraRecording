@@ -13,6 +13,7 @@
 		41BB06E42C62A321002A68D5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 41BB06E32C62A321002A68D5 /* Base */; };
 		41BB06E62C62A324002A68D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BB06E52C62A324002A68D5 /* Assets.xcassets */; };
 		41BB06E92C62A324002A68D5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 41BB06E82C62A324002A68D5 /* Base */; };
+		41BB06F12C62A36E002A68D5 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB06F02C62A36E002A68D5 /* CameraManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		41BB06E52C62A324002A68D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41BB06E82C62A324002A68D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BB06EA2C62A324002A68D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BB06F02C62A36E002A68D5 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				41BB06DC2C62A321002A68D5 /* AppDelegate.swift */,
 				41BB06DE2C62A321002A68D5 /* SceneDelegate.swift */,
 				41BB06E02C62A321002A68D5 /* ViewController.swift */,
+				41BB06F02C62A36E002A68D5 /* CameraManager.swift */,
 				41BB06E22C62A321002A68D5 /* Main.storyboard */,
 				41BB06E52C62A324002A68D5 /* Assets.xcassets */,
 				41BB06E72C62A324002A68D5 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				41BB06E12C62A321002A68D5 /* ViewController.swift in Sources */,
 				41BB06DD2C62A321002A68D5 /* AppDelegate.swift in Sources */,
+				41BB06F12C62A36E002A68D5 /* CameraManager.swift in Sources */,
 				41BB06DF2C62A321002A68D5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +299,9 @@
 				DEVELOPMENT_TEAM = PTTK7SFSN5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ThreeSixtyVideo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to record 360 videos";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to record audio.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To save video in photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +330,9 @@
 				DEVELOPMENT_TEAM = PTTK7SFSN5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ThreeSixtyVideo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to record 360 videos";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to record audio.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To save video in photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
